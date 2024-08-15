@@ -1,0 +1,508 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "name": "Sausage",
+        "description": "Delicious sausage",
+        "image": "./images/sausage.jpg",
+        "price": 80,
+        "quantity": 1,
+        "stock": 49,
+        "category": "Starters"
+      },
+      {
+        "id": 2,
+        "name": "Kebab",
+        "description": "Juicy kebab",
+        "image": "./images/kebab.jpg",
+        "price": 150,
+        "quantity": 1,
+        "stock": 41,
+        "category": "Starters"
+      },
+      {
+        "id": 3,
+        "name": "Tomato Sauce",
+        "description": "Fresh tomato sauce",
+        "image": "./images/tomatosauce.jpg",
+        "price": 10,
+        "quantity": 1,
+        "stock": 47,
+        "category": "Sauce"
+      },
+      {
+        "id": 4,
+        "name": "1/2 Chicken",
+        "description": "Half a chicken",
+        "image": "./images/quaterchicken.jpg",
+        "price": 500,
+        "quantity": 1,
+        "stock": 22,
+        "category": "Chicken"
+      },
+      {
+        "id": 5,
+        "name": "1/4 Chicken",
+        "description": "Quarter chicken",
+        "image": "./images/quaterchicken.jpg",
+        "price": 250,
+        "quantity": 1,
+        "stock": 33,
+        "category": "Chicken"
+      },
+      {
+        "id": 6,
+        "name": "Full Chicken",
+        "description": "Whole chicken",
+        "image": "./images/wholefriedchicken.jpg",
+        "price": 1000,
+        "quantity": 1,
+        "stock": 28,
+        "category": "Chicken"
+      },
+      {
+        "id": 7,
+        "name": "Diet Coke",
+        "description": "Refreshing diet coke",
+        "image": "./images/dietcoke.jpg",
+        "price": 130,
+        "quantity": 1,
+        "stock": 33,
+        "category": "Drinks"
+      },
+      {
+        "id": 8,
+        "name": "Soda PET bottle",
+        "description": "Chilled soda in PET bottle",
+        "image": "./images/cokeplastic.jpg",
+        "price": 130,
+        "quantity": 1,
+        "stock": 49,
+        "category": "Drinks"
+      },
+      {
+        "id": 9,
+        "name": "Beef Burger",
+        "description": "Tasty beef burger",
+        "image": "./images/beefburger.jpg",
+        "price": 250,
+        "quantity": 1,
+        "stock": 37,
+        "category": "Burger"
+      },
+      {
+        "id": 10,
+        "name": "Chicken Burger",
+        "description": "Crispy chicken burger",
+        "image": "./images/chickenburger.jpg",
+        "price": 250,
+        "quantity": 1,
+        "stock": 41,
+        "category": "Burger"
+      },
+      {
+        "id": 11,
+        "name": "French Fries",
+        "description": "Golden crispy chips",
+        "image": "./images/frenchfries.jpg",
+        "price": 190,
+        "quantity": 1,
+        "stock": 30,
+        "category": "Chips"
+      },
+      {
+        "id": 12,
+        "name": "Bhajia",
+        "description": "Crunchy bhajia",
+        "image": "./images/bhajia.png",
+        "price": 230,
+        "quantity": 1,
+        "stock": 49,
+        "category": "Chips"
+      },
+      {
+        "id": 13,
+        "name": "Chips Masala",
+        "description": "Spicy chips masala",
+        "image": "./images/chipsmasala.jpg",
+        "price": 230,
+        "quantity": 1,
+        "stock": 24,
+        "category": "Chips"
+      },
+      {
+        "id": 14,
+        "name": "Del Monte Juice",
+        "description": "Refreshing Del Monte juice",
+        "image": "images/delmonte.png",
+        "price": 250,
+        "quantity": 1,
+        "stock": 41,
+        "category": "Juices"
+      },
+      {
+        "id": 15,
+        "name": "Dasani",
+        "description": "Pure mineral water",
+        "image": "./images/dasani.jpg",
+        "price": 60,
+        "quantity": 1,
+        "stock": 20,
+        "category": "Mineral Water"
+      },
+      {
+        "id": 16,
+        "name": "Pick & Peel",
+        "description": "Refreshing Pick & Peel drink",
+        "image": "./images/pickandpeel.png",
+        "price": 310,
+        "quantity": 1,
+        "stock": 23,
+        "category": "Juices"
+      },
+      {
+        "id": 17,
+        "name": "Meat Pie",
+        "description": "Savory meat pie",
+        "image": "./images/meatpie.jpg",
+        "price": 150,
+        "quantity": 1,
+        "stock": 42,
+        "category": "Savory Pastry"
+      },
+      {
+        "id": 18,
+        "name": "Samosa",
+        "description": "Crunchy samosa",
+        "image": "./images/samosa.jpg",
+        "price": 80,
+        "quantity": 1,
+        "stock": 46,
+        "category": "Savory Pastry"
+      },
+      {
+        "id": 19,
+        "name": "Chicken Pie",
+        "description": "Delicious chicken pie",
+        "image": "./images/chickenpie.jpg",
+        "price": 210,
+        "quantity": 1,
+        "stock": 40,
+        "category": "Savory Pastry"
+      },
+      {
+        "id": 20,
+        "name": "Garlic Sauce",
+        "description": "Flavorful garlic sauce",
+        "image": "./images/garlicsauce.jpg",
+        "price": 20,
+        "quantity": 1,
+        "stock": 50,
+        "category": "Sauce"
+      },
+      {
+        "id": 21,
+        "name": "Mayo",
+        "description": "Creamy mayonnaise",
+        "image": "./images/mayo.jpg",
+        "price": 25,
+        "quantity": 1,
+        "stock": 50,
+        "category": "Sauce"
+      },
+      {
+        "id": 22,
+        "name": "Sweet & Sour Sauce",
+        "description": "Tangy sweet & sour sauce",
+        "image": "./images/sweetandsoursauce.jpg",
+        "price": 25,
+        "quantity": 1,
+        "stock": 50,
+        "category": "Sauce"
+      },
+      {
+        "id": 23,
+        "name": "Grilled Chicken",
+        "description": "Succulent grilled chicken",
+        "image": "./images/grilledchicken.jpg",
+        "price": 600,
+        "quantity": 1,
+        "stock": 20,
+        "category": "Chicken"
+      },
+      {
+        "id": 24,
+        "name": "Fried Chicken Wings",
+        "description": "Crispy fried chicken wings",
+        "image": "./images/friedchickenwings.jpg",
+        "price": 300,
+        "quantity": 1,
+        "stock": 35,
+        "category": "Chicken"
+      },
+      {
+        "id": 25,
+        "name": "Vanilla Milkshake",
+        "description": "Creamy vanilla milkshake",
+        "image": "./images/vanillamilkshake.jpg",
+        "price": 200,
+        "quantity": 1,
+        "stock": 30,
+        "category": "Beverages"
+      },
+      {
+        "id": 26,
+        "name": "Chocolate Milkshake",
+        "description": "Rich chocolate milkshake",
+        "image": "./images/chocolatemilkshake.jpg",
+        "price": 200,
+        "quantity": 1,
+        "stock": 30,
+        "category": "Beverages"
+      },
+      {
+        "id": 27,
+        "name": "Strawberry Milkshake",
+        "description": "Fruity strawberry milkshake",
+        "image": "./images/strawberrymilkshake.jpg",
+        "price": 200,
+        "quantity": 1,
+        "stock": 30,
+        "category": "Beverages"
+      },
+      {
+        "id": 28,
+        "name": "Espresso",
+        "description": "Strong espresso shot",
+        "image": "./images/espresso.jpg",
+        "price": 100,
+        "quantity": 1,
+        "stock": 37,
+        "category": "Beverages"
+      },
+      
+        
+          {
+            "id": 29,
+            "name": "Cappuccino",
+            "description": "Creamy cappuccino",
+            "image": "./images/cappuccino.jpg",
+            "price": 150,
+            "quantity": 1,
+            "stock": 35,
+            "category": "Beverages"
+          },
+          {
+            "id": 30,
+            "name": "Latte",
+            "description": "Smooth latte",
+            "image": "./images/latte.jpg",
+            "price": 150,
+            "quantity": 1,
+            "stock": 35,
+            "category": "Beverages"
+          },
+          {
+            "id": 31,
+            "name": "Mocha",
+            "description": "Rich mocha coffee",
+            "image": "./images/mocha.jpg",
+            "price": 160,
+            "quantity": 1,
+            "stock": 30,
+            "category": "Beverages"
+          },
+          {
+            "id": 32,
+            "name": "Pepper Sauce",
+            "description": "Spicy pepper sauce",
+            "image": "./images/peppersauce.jpg",
+            "price": 30,
+            "quantity": 1,
+            "stock": 50,
+            "category": "Sauce"
+          },
+          {
+            "id": 33,
+            "name": "BBQ Sauce",
+            "description": "Smoky BBQ sauce",
+            "image": "./images/bbqsauce.jpg",
+            "price": 30,
+            "quantity": 1,
+            "stock": 50,
+            "category": "Sauce"
+          },
+          {
+            "id": 34,
+            "name": "Chicken Nuggets",
+            "description": "Crispy chicken nuggets",
+            "image": "./images/chickennuggets.jpg",
+            "price": 180,
+            "quantity": 1,
+            "stock": 40,
+            "category": "Starters"
+          },
+          {
+            "id": 35,
+            "name": "Onion Rings",
+            "description": "Crispy onion rings",
+            "image": "./images/onionrings.jpg",
+            "price": 120,
+            "quantity": 1,
+            "stock": 45,
+            "category": "Starters"
+          },
+          {
+            "id": 36,
+            "name": "Mozzarella Sticks",
+            "description": "Cheesy mozzarella sticks",
+            "image": "./images/mozzarellasticks.jpg",
+            "price": 150,
+            "quantity": 1,
+            "stock": 35,
+            "category": "Starters"
+          },
+          {
+            "id": 37,
+            "name": "Fish Fillet",
+            "description": "Crispy fish fillet",
+            "image": "./images/fishfillet.jpg",
+            "price": 350,
+            "quantity": 1,
+            "stock": 25,
+            "category": "Starters"
+          },
+          {
+            "id": 38,
+            "name": "Grilled Beef",
+            "description": "Juicy grilled beef",
+            "image": "./images/grilledbeef.jpg",
+            "price": 600,
+            "quantity": 1,
+            "stock": 30,
+            "category": "Chicken"
+          },
+          {
+            "id": 39,
+            "name": "Crispy Chicken Sandwich",
+            "description": "Delicious crispy chicken sandwich",
+            "image": "./images/chickensandwich.jpg",
+            "price": 270,
+            "quantity": 1,
+            "stock": 33,
+            "category": "Burger"
+          },
+          {
+            "id": 40,
+            "name": "Mango Juice",
+            "description": "Refreshing mango juice",
+            "image": "./images/mangojuice.jpg",
+            "price": 220,
+            "quantity": 1,
+            "stock": 40,
+            "category": "Juices"
+          },
+          {
+            "id": 41,
+            "name": "Pineapple Juice",
+            "description": "Tropical pineapple juice",
+            "image": "./images/pineapplejuice.jpg",
+            "price": 220,
+            "quantity": 1,
+            "stock": 40,
+            "category": "Juices"
+          },
+          {
+            "id": 42,
+            "name": "Orange Juice",
+            "description": "Freshly squeezed orange juice",
+            "image": "./images/orangejuice.jpg",
+            "price": 220,
+            "quantity": 1,
+            "stock": 40,
+            "category": "Juices"
+          },
+          {
+            "id": 43,
+            "name": "Tandoori Chicken",
+            "description": "Spiced tandoori chicken",
+            "image": "./images/tandoorichicken.jpg",
+            "price": 550,
+            "quantity": 1,
+            "stock": 20,
+            "category": "Chicken"
+          },
+          {
+            "id": 44,
+            "name": "Pita Bread",
+            "description": "Soft pita bread",
+            "image": "./images/pitabread.jpg",
+            "price": 60,
+            "quantity": 1,
+            "stock": 50,
+            "category": "Starters"
+          },
+          {
+            "id": 45,
+            "name": "Muffin",
+            "description": "Sweet muffin",
+            "image": "./images/muffin.jpg",
+            "price": 80,
+            "quantity": 1,
+            "stock": 30,
+            "category": "Savory Pastry"
+          },
+          {
+            "id": 46,
+            "name": "Bottled Water 500ml",
+            "description": "Pure bottled water",
+            "image": "./images/bottledwater500ml.jpg",
+            "price": 50,
+            "quantity": 1,
+            "stock": 50,
+            "category": "Mineral Water"
+          },
+          {
+            "id": 47,
+            "name": "Bottled Water 1L",
+            "description": "Pure bottled water 1L",
+            "image": "./images/bottledwater1L.jpg",
+            "price": 100,
+            "quantity": 1,
+            "stock": 50,
+            "category": "Mineral Water"
+          },
+          {
+            "id": 48,
+            "name": "Green Salad",
+            "description": "Fresh green salad",
+            "image": "./images/greensalad.jpg",
+            "price": 120,
+            "quantity": 1,
+            "stock": 30,
+            "category": "Starters"
+          },
+          {
+            "id": 49,
+            "name": "Caesar Salad",
+            "description": "Classic Caesar salad",
+            "image": "./images/caesarsalad.jpg",
+            "price": 200,
+            "quantity": 1,
+            "stock": 25,
+            "category": "Starters"
+          },
+          {
+            "id": 50,
+            "name": "Beef Taco",
+            "description": "Spicy beef taco",
+            "image": "./images/beeftaco.jpg",
+            "price": 150,
+            "quantity": 1,
+            "stock": 35,
+            "category": "Starters"
+          }
+        ]
+      }
+      
+  

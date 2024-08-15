@@ -1,0 +1,338 @@
+/* Global Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+/* Navbar Styles */
+nav {
+  background-color: #343a40;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 8px 16px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  background-color: #495057;
+  border-radius: 4px;
+}
+
+/* Home and Product List Styles */
+.product-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 5px;
+}
+
+.product-card {
+ 
+  border-radius: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+}
+
+.product-card img {
+  max-width: 100%;
+  height: 150px; /* Set a uniform height for all images */
+  object-fit: cover; /* Ensures the image scales properly within the specified height */
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.product-card h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.product-card p {
+  margin: 5px 0;
+  color: #555;
+}
+
+.product-card button {
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.product-card button:hover {
+  background-color: #0056b3;
+}
+
+.product-card button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+/* Cart Styles */
+.cart-items {
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  margin: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+
+.cart-item:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+}
+
+.cart-item img {
+  width: 100px; /* Ensure images in the cart have a uniform width */
+  height: 100px; /* Set a uniform height for images */
+  object-fit: cover; /* Ensures the image scales properly */
+  border-radius: 8px;
+  margin-right: 20px;
+}
+
+.cart-item h2 {
+  font-size: 18px;
+  flex: 1;
+}
+
+.cart-item p {
+  margin: 0;
+  color: #555;
+}
+
+h2 {
+  font-size: 24px;
+  margin-top: 0;
+}
+
+.total-amount {
+  text-align: right;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+/* Quantity Control Styles */
+.quantity-control {
+  display: flex;
+  align-items: center;
+}
+
+.quantity-control button {
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.quantity-control button:hover {
+  background-color: #0056b3;
+}
+
+.quantity-control button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.quantity-control p {
+  margin: 0 10px;
+  font-size: 16px;
+  color: #555;
+}
+.feedback-section {
+  text-align: center;
+  margin: 50px 0;
+}
+
+.feedback-section h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.feedback-section h3 {
+  font-size: 20px;
+  font-weight: normal;
+  margin-bottom: 40px;
+}
+
+.reviews {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.review {
+  background-color: #1e1e1e;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  width: 300px;
+  position: relative;
+}
+
+.quote {
+  font-size: 40px;
+  color: #ff5a00;
+  position: absolute;
+  top: -20px;
+  left: 10px;
+}
+
+.review p {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.reviewer {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.reviewer img {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.reviewer strong {
+  display: block;
+  font-size: 16px;
+}
+
+.reviewer span {
+  font-size: 12px;
+  color: #cccccc;
+}
+
+.reviewer button {
+  margin-left: auto;
+  background-color: #ff5a00;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.review-form {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.review-form input {
+  margin: 10px 0;
+  padding: 10px;
+  width: 250px;
+  border: none;
+  border-radius: 5px;
+}
+
+.review-form button {
+  background-color: #ff5a00;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+/* Footer Styles */
+footer {
+  background-color: #343a40;
+  color: #ffffff;
+  padding: 40px 20px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px; /* Adds space between footer sections */
+}
+
+.footer-section {
+  flex: 1;
+  padding: 10px;
+  min-width: 200px; /* Ensures a minimum width for each section */
+}
+
+.footer-section h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 10px;
+}
+
+.footer-section a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer-section a:hover {
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  margin-top: 20px;
+  font-size: 12px;
+  color: #ffffff;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-section {
+    text-align: center;
+  }
+}
+
