@@ -26,7 +26,7 @@ const Review = () => {
     },
   ]);
 
-  const [newReview, setNewReview] = useState({ text: '', name: '', title: '', img: '' });
+  const [newReview, setNewReview] = useState({ text: '', name: '', title: ''});
 
   const handleChange = (e) => {
     setNewReview({ ...newReview, [e.target.name]: e.target.value });
@@ -34,9 +34,9 @@ const Review = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (newReview.text && newReview.name && newReview.img) {
+    if (newReview.text && newReview.name ) {
       setReviews([...reviews, { ...newReview, id: reviews.length + 1 }]);
-      setNewReview({ text: '', name: '', title: '', img: '' });
+      setNewReview({ text: '', name: '', title: ''});
     }
   };
 
@@ -54,7 +54,7 @@ const Review = () => {
             <div className="quote">“</div>
             <p>{review.text}</p>
             <div className="reviewer">
-              <img src={review.img} alt={review.name} />
+              
               <div>
                 <strong>{review.name}</strong>
                 <span>{review.title}</span>

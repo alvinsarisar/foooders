@@ -3,7 +3,7 @@ import React from 'react';
 function Home({ products, addToCart }) {
   return (
     <div>
-      <h1>FOODERS.COM</h1>
+      
       <div className="product-list">
         {products.map(product => (
           <div key={product.id} className="product-card">

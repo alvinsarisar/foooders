@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './Home';
+import VideoAd from './VideoAd';
 import Cart from './Cart';
 import Checkout from './Checkout';
 import Navbar from './Navbar';
@@ -61,7 +62,8 @@ function App() {
       <Navbar />
 
       <Routes>
-        <Route path="/" element={<Home products={products} addToCart={addToCart} />} />
+      <Route path="/" element={<VideoAd />} />
+        <Route path="/home" element={<Home products={products} addToCart={addToCart} />} />
         <Route path="/cart" element={<Cart cart={cart} updateCart={updateCart} />} />
         <Route path="/checkout" element={<Checkout cart={cart} />} />
         <Route path="/about" element={<About />} />
